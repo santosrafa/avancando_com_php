@@ -1,0 +1,13 @@
+<?php
+
+$Idade_list = [10, 20, 30, 40, 50, 60];         /* UM ARRAY É FORMADO POR [] E SUA POSICAO COMECA NO ZERO(0) */
+
+$Idade_list[] = 70;
+
+foreach($Idade_list as $idade){
+    echo $idade . PHP_EOL;
+}
+
+/* PARA ADICIONAR UM DADO EM UM ARRAY CONTENDO APENAS UMA LISTA
+BASTA COLOCAR [] QUE O PROPRIO PHP COLOCA O DADO NA PROXIMA
+POSICAO DO ARRAY */

@@ -2,6 +2,7 @@
 
 /* FOREACH SIGNIFICA PARA CADA */
 /* NAO PRECISAMOS SABER O INDICE PARA UTILIZAR O FOREACH */
+/* Não precisamos conhecer as chaves de cada item para percorrer seus valores */
 
 $Contas_correntes = [
     12389876578 => [

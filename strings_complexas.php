@@ -54,5 +54,5 @@ $Contas_correntes ['123.898.765-43'] = sacar($Contas_correntes['123.898.765-43']
 $Contas_correntes ['980.768.534-21'] = depositar($Contas_correntes['980.768.534-21'], $valor_depositar = 1000);
 
 foreach ($Contas_correntes as $cpf => $conta) {
-    exibeMensagem(" $cpf {$conta['titular']} {$conta['saldo']} ");      //ESSA É UMA DAS FORMAS DE SE UTILIZAR O ARRAY EM UMA STRING 
-}
+    exibeMensagem(" $cpf {$conta['titular']} {$conta['saldo']} ");      //ESSA É UMA DAS FORMAS DE SE UTILIZAR O ARRAY EM UMA STRING. ISTO É CHAMADO DE INTERPOLACAO DE STRING
+}                                                                       //echo "O titular da conta é {$conta['titular']}";

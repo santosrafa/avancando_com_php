@@ -33,8 +33,9 @@ $contasCorrentes['123.256.789-12'] = depositar(
 );
 
 unset($contasCorrentes['123.456.689-11']);
+                                                                    
+?>                                                             <!-- ?> A PARTIR DAQUI DO TEXTO VAI IGNORAR O PHP E EXIBIRA O HTML -->
 
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -53,7 +54,7 @@ unset($contasCorrentes['123.456.689-11']);
             <h3><?= $conta['titular']; ?> - <?= $cpf; ?></h3>
         </dt>
         <dd>
-            Saldo: <?= $conta['saldo']; ?>
+            Saldo: <?= $conta['saldo']; ?>                          <!-- ?= O PHP JÁ ENTENDE QUE VIRA UMA INSTRUCAO PARA EXIBIR ESTE DADO -->
         </dd>
         <?php } ?>
     </dl>

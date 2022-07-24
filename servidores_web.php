@@ -6,4 +6,4 @@
 
 //UMA FORMA DE EXECUTAR O ARQUIVO SEM O INDEX :: http://localhost:8080/depositando_valor.php
 
-//php -S localhost:8000
+//php -S localhost:8080
